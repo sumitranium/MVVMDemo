@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Hu-Qe-lfb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -92,147 +92,10 @@
             </objects>
             <point key="canvasLocation" x="-412" y="-380"/>
         </scene>
-        <!--ThirdVC-->
-        <scene sceneID="FkH-at-jZx">
-            <objects>
-                <viewController id="XBP-LJ-BIV" customClass="ThirdVC" customModule="MVVMSumit" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s3h-Y6-PP5">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="mm4-0E-8Fp"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="NotificationsPurple" selectedImage="Notifications" id="N2e-8g-FJy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ths-1K-OnJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1742" y="774"/>
-        </scene>
-        <!--FirstVC-->
-        <scene sceneID="yjR-nD-8Gy">
-            <objects>
-                <viewController storyboardIdentifier="FirstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OKe-tO-Irb" customClass="FirstVC" customModule="MVVMSumit" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zUR-sh-p2E">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2AK-iy-uUp">
-                                <rect key="frame" x="145" y="87" width="100" height="100"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="hkc-DT-Gfb"/>
-                                    <constraint firstAttribute="height" constant="100" id="p3M-RE-PhK"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="5pP-US-wPf"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="2AK-iy-uUp" firstAttribute="top" secondItem="5pP-US-wPf" secondAttribute="top" constant="40" id="C6v-91-i0F"/>
-                            <constraint firstItem="2AK-iy-uUp" firstAttribute="centerX" secondItem="zUR-sh-p2E" secondAttribute="centerX" id="mg9-yG-BIh"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="StorePurple" selectedImage="Store" id="g65-la-2hM"/>
-                    <connections>
-                        <outlet property="vwCircle" destination="2AK-iy-uUp" id="XHf-um-2EN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ncC-bU-dX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="23" y="761"/>
-        </scene>
-        <!--SecondVC-->
-        <scene sceneID="e7d-lD-4fB">
-            <objects>
-                <viewController id="qyx-vb-0Dq" customClass="SecondVC" customModule="MVVMSumit" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pPj-ru-2mC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="j17-Nj-MAf"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="Global SearchPurple" selectedImage="Global Search" id="00L-eZ-zlb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Swn-ny-zxl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="954" y="111"/>
-        </scene>
-        <!--FourthVC-->
-        <scene sceneID="eLv-jO-NWw">
-            <objects>
-                <viewController id="t9M-Hm-GCE" customClass="FourthVC" customModule="MVVMSumit" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kCU-Rj-oI3">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="IBq-pk-wFA"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="ProfilePurple" selectedImage="Profile" id="c1x-KY-5XN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XIu-H0-jhV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="954" y="1442"/>
-        </scene>
-        <!--Home Page-->
-        <scene sceneID="0Af-wO-tLi">
-            <objects>
-                <tabBarController storyboardIdentifier="HomePage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YRa-wH-9rJ" customClass="HomePage" customModule="MVVMSumit" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="dcL-AS-zkX"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Rn-Au-4EM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="OKe-tO-Irb" kind="relationship" relationship="viewControllers" id="u7R-sf-nNY"/>
-                        <segue destination="qyx-vb-0Dq" kind="relationship" relationship="viewControllers" id="ZVM-t0-9Z7"/>
-                        <segue destination="XBP-LJ-BIV" kind="relationship" relationship="viewControllers" id="OU7-83-Jlt"/>
-                        <segue destination="t9M-Hm-GCE" kind="relationship" relationship="viewControllers" id="ibA-Pj-VUF"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EdY-SA-WdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="954" y="761"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Yh3-UL-rve">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8Hu-Qe-lfb" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3mm-Bh-8O2">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gjg-H4-h9O"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t6G-ix-aw5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1186" y="-380"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="Global Search" width="24" height="24"/>
-        <image name="Global SearchPurple" width="24" height="24"/>
-        <image name="Notifications" width="24" height="24"/>
-        <image name="NotificationsPurple" width="24" height="24"/>
-        <image name="Profile" width="24" height="24"/>
-        <image name="ProfilePurple" width="24" height="24"/>
-        <image name="Store" width="24" height="24"/>
-        <image name="StorePurple" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -10,9 +10,8 @@ import UIKit
 
 struct Domain {
     static var dev = "https://hub.dummyapis.com/employee?"
-//    static var assest = "http://image.tmdb.org/t/p/w185/"
-    
 }
+
 extension Domain {
     static func baseUrl() -> String {
         print(Domain.dev)

@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tblEmployee: UITableView!
     
-    //    let signUpVM = SignUpViewModel()
     var arrEmployeeData : [EmployeeDataModel] = [] {
         didSet {
             tblEmployee.reloadData()
@@ -40,9 +39,6 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         }
         
         let dict = arrEmployeeData[indexPath.row]
-        
-        //        let movie = viewModel.movies![indexP\ath.row]
-        //        cell.movieItem = movie
         cell.lblTitle.text = "id : \(dict.id!)" + ", " + "firstName : \(dict.firstName!)" + ", " + "lastName : \(dict.lastName!)" + ", " + "email : \(dict.email!)" + ", " + "dob : \(dict.dob!)" + ", " + "age : \(dict.age!)" + ", " + "address : \(dict.address!)" + ", " + "salary : \(dict.salary!)"
         return cell
     }
@@ -62,7 +58,7 @@ extension ViewController {
         }
         
         EmployeeViewModel().getEmployeeDataList { isInternet, isError, data in
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [self] in
                 self.view.activityStopAnimating()
                 self.view.isUserInteractionEnabled = true
                 if !isInternet {
@@ -71,9 +67,7 @@ extension ViewController {
                     self.showAlert("Error", "Error")
                 } else if let data = data {
                     self.arrEmployeeData = data
-                    
-                    //                    print("kakarot finnal data to see=",self.arrEmployeeData)
-                    
+                    tblEmployee.reloadData()
                 } else {
                     self.showAlert("Error", "Error")
                 }

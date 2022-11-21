@@ -24,11 +24,6 @@
 		78AF9B6928F945250053223D /* AppURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF9B6828F945250053223D /* AppURL.swift */; };
 		78AF9B6B28F945790053223D /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF9B6A28F945790053223D /* AppExtension.swift */; };
 		78AF9B6D28F9468A0053223D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF9B6C28F9468A0053223D /* NetworkManager.swift */; };
-		78BCBF9028FF1E2D00B2A79A /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BCBF8F28FF1E2D00B2A79A /* HomePage.swift */; };
-		78BCBF9228FF205D00B2A79A /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BCBF9128FF205D00B2A79A /* FirstVC.swift */; };
-		78BCBF9428FF207000B2A79A /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BCBF9328FF207000B2A79A /* SecondVC.swift */; };
-		78BCBF9628FF208400B2A79A /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BCBF9528FF208400B2A79A /* ThirdVC.swift */; };
-		78BCBF9828FF209500B2A79A /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BCBF9728FF209500B2A79A /* FourthVC.swift */; };
 		987C557113C8B61F09FDDDEB /* Pods_MVVMSumitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CF82C6BEFCEE09F886A14C /* Pods_MVVMSumitTests.framework */; };
 		D49CE1F88D850821661F11BF /* Pods_MVVMSumit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4497B6215CCEB0CBA164E57F /* Pods_MVVMSumit.framework */; };
 /* End PBXBuildFile section */
@@ -77,11 +72,6 @@
 		78AF9B6828F945250053223D /* AppURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppURL.swift; sourceTree = "<group>"; };
 		78AF9B6A28F945790053223D /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
 		78AF9B6C28F9468A0053223D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		78BCBF8F28FF1E2D00B2A79A /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		78BCBF9128FF205D00B2A79A /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
-		78BCBF9328FF207000B2A79A /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		78BCBF9528FF208400B2A79A /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
-		78BCBF9728FF209500B2A79A /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
 		93A339C55B8686BDE87DA02D /* Pods-MVVMSumit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMSumit.debug.xcconfig"; path = "Target Support Files/Pods-MVVMSumit/Pods-MVVMSumit.debug.xcconfig"; sourceTree = "<group>"; };
 		A2F83B43E72F7EF332A72419 /* Pods-MVVMSumitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMSumitTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMSumitTests/Pods-MVVMSumitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B424E79E5473DAAC7AAC09A9 /* Pods-MVVMSumit-MVVMSumitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMSumit-MVVMSumitUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMSumit-MVVMSumitUITests/Pods-MVVMSumit-MVVMSumitUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,18 +116,6 @@
 				40EF3CC4FFB003E42C147C28 /* Pods-MVVMSumitTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		785A8EB62926AEF60050F9D2 /* Tabbar */ = {
-			isa = PBXGroup;
-			children = (
-				78BCBF8F28FF1E2D00B2A79A /* HomePage.swift */,
-				78BCBF9128FF205D00B2A79A /* FirstVC.swift */,
-				78BCBF9328FF207000B2A79A /* SecondVC.swift */,
-				78BCBF9528FF208400B2A79A /* ThirdVC.swift */,
-				78BCBF9728FF209500B2A79A /* FourthVC.swift */,
-			);
-			path = Tabbar;
 			sourceTree = "<group>";
 		};
 		785A8EB72926AF1E0050F9D2 /* TableCell */ = {
@@ -233,7 +211,6 @@
 		78AF9B6328F9448D0053223D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				785A8EB62926AEF60050F9D2 /* Tabbar */,
 				78AF9B3428F943B20053223D /* ViewController.swift */,
 			);
 			path = Controller;
@@ -507,16 +484,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78AF9B3528F943B20053223D /* ViewController.swift in Sources */,
-				78BCBF9428FF207000B2A79A /* SecondVC.swift in Sources */,
 				78AF9B3128F943B20053223D /* AppDelegate.swift in Sources */,
 				7850FC9428FD6A6100D1F1C7 /* EmployeeTVC.swift in Sources */,
 				78AF9B6D28F9468A0053223D /* NetworkManager.swift in Sources */,
-				78BCBF9028FF1E2D00B2A79A /* HomePage.swift in Sources */,
-				78BCBF9628FF208400B2A79A /* ThirdVC.swift in Sources */,
-				78BCBF9828FF209500B2A79A /* FourthVC.swift in Sources */,
 				78AF9B6B28F945790053223D /* AppExtension.swift in Sources */,
 				78AF9B6928F945250053223D /* AppURL.swift in Sources */,
-				78BCBF9228FF205D00B2A79A /* FirstVC.swift in Sources */,
 				78AED27C2918BBEE00BF98D7 /* EmployeeDataModel.swift in Sources */,
 				782B638C292AB4D6009E0221 /* NetworkReachability.swift in Sources */,
 				782B638A292AB1A1009E0221 /* EmployeeViewModel.swift in Sources */,
